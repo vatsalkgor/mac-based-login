@@ -7,3 +7,7 @@ HOW to USE!!!
 3. Create a MacLogin class' object with the argument as the mac address you want to check. 
 4. Call getMac() from teh object you created to get the eth0 and eth1 mac address of the system on which application is installed. 
 5. Then call compareMAC() to check if your software is licensed or not.
+
+:::NOTE:::
+
+This library is currently supporting only 2 NICs eth0 and eth1. If you want more NICs let me know...
